@@ -214,6 +214,7 @@ Table of Content:
 body {
   font-family: var(--bj-Open);
   letter-spacing: 0.02rem;
+  margin: 8px;
 }
 
 :focus {
@@ -1099,8 +1100,8 @@ ul.ordered-list li::before {
 
 .menu > .nav-item {
   position: relative;
-  padding-bottom: 39px;
-  padding-top: 39px;
+  /* padding-bottom: 39px; */
+  /* padding-top: 39px; */
   margin-left: 25px;
 }
 .menu > .nav-item > .nav-link {
@@ -1122,6 +1123,9 @@ ul.ordered-list li::before {
   font-family: "themify";
   display: inline-block;
 } */
+ .dropdown{
+  text-align: center;
+ }
 .menu > .nav-item.submenu .dropdown-menu {
   margin: 0px;
   border: 0px;
@@ -2087,7 +2091,7 @@ ul.ordered-list li::before {
 
 .fixed-header {
   position: fixed;
-  width: 100%;
+  width: 105%;
   top: 0;
   left: 0;
   background: #fff;
