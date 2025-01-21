@@ -4455,7 +4455,7 @@ ul.ordered-list li::before {
   position: relative;
   padding-left: 80px;
   padding-top: 80px;
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 .bj_testimonial_inner:before {
   content: "";
@@ -4472,10 +4472,10 @@ ul.ordered-list li::before {
   background-repeat: no-repeat;
 }
 .bj_testimonial_inner .testimonail_img {
-  border-radius: 20px;
+  border-radius: 50%;
 }
 .bj_testimonial_inner .bj_testimonial_content {
-  padding-left: 50px;
+  padding-right: 10px;
 }
 .bj_testimonial_inner h4 {
   font-size: 32px;
