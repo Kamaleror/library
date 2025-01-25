@@ -218,7 +218,11 @@
     margin: 0 30px;
   }
 }
-
+@media (min-width: 991px){
+  .mth{
+    margin-top: 60px;
+  }
+}
 @media (max-width: 991px) {
   .cart-header-separator {
     margin-top: 60px;
@@ -438,7 +442,7 @@
     display: inline-block;
   }
   .header_area.header_relative + section {
-    /* margin-top: 64px; */
+    margin-top: 64px;
   }
   .await{
     display: none;
@@ -571,6 +575,15 @@
 @media (max-width: 767px) {
   .bj_banner_img {
     height: auto;
+  }
+  .sidebar-search-input{
+    width: 100%;
+  }
+  .dis{
+    text-align: center
+  }
+  .padding_top{
+    padding-top: 20px !important; ;
   }
   .tab_slider_thumb {
     padding-bottom: 40px;
