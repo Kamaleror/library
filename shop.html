@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./img/home/MetLogo.png" />
+        <!-- Bootstrap CSS  and font-->
+        <link href="./CSS/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="./CSS/Bootstrap/all.min.css" rel="stylesheet" />
+        <link href="./CSS/Bootstrap/slick-theme.css" rel="stylesheet" />
+        <link href="./CSS/Bootstrap/slick.css" rel="stylesheet" />
+        <link href="./CSS/Bootstrap/style.css" rel="stylesheet" />
+        <link href="./CSS/Bootstrap/swiper.min.css" rel="stylesheet" />
+        <link href="./CSS/font/css/fontawesome.css" rel="stylesheet" />
+        <link href="./CSS/font/css/brands.css" rel="stylesheet" />
+        <link href="./CSS/font/css/solid.css" rel="stylesheet" />
+        <link href="./CSS/font/css/d" rel="stylesheet" />
+        <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/iconStyle/animate.css">
+        <link rel="stylesheet" href="./CSS/iconStyle/style.css">
+        <link rel="stylesheet" href="./CSS/iconStyle/fonticon.css">
+        <link rel="stylesheet" href="./CSS/iconStyle/all.min.css">
+        <link rel="stylesheet" href="./CSS/responste-style/responsive.css">
+        <link rel="stylesheet" href="./CSS/responste-style/style.css">
+        
+        <title>المشاريع | مكتبة معهد مصر العالي للحاسبات والمعلومات بالمنصوره</title>
+    </head>
+    <body data-scroll-animation="true" dir="rtl">
+        <!-- loader  -->
+        <div id="preloader">
+            <div id="ctn-preloader" class="ctn-preloader">
+                <div class="round_spinner">
+                    <div class="spinner"></div>
+                    <div class="spinner-grow w-50 h-50 text-primary"  role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+        </div>
+        <div class="click_capture"></div>
+        <!-- start header -->
+        <header class="header_area header_relative header_blue">
+           <!-- Top header -->
+           <div class="max" style="color:aliceblue">
+               <a class="navbar-brand"><i class="bi bi-telephone-outbound-fill"></i> 0502245747</a>
+               <a class="navbar-brand" style="margin-left: 10px;"><i class="bi bi-envelope-arrow-up-fill"></i> info@metmans.edu.eg</a>
+           </div>
+           <hr class="max" style="height:2px; color:aliceblue;">
+           <!-- list header -->
+           <nav class="navbar navbar-expand-lg menu_one menu_white" id="header">
+               <div class="container">
+                   <!-- button span max (990) -->
+                   <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="menu_toggle">
+                           <span class="hamburger">
+                               <span></span>
+                               <span></span>
+                               <span></span>
+                           </span>
+                           <span class="hamburger-cross">
+                               <span></span>
+                               <span></span>
+                           </span>
+                       </span>
+                   </button>
+                   <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                       <ul class="navbar-nav menu w_menu ms-auto me-auto">
+                           <ul class="navbar-nav">
+                               <li class="nav-item user ms-3">
+                                   <a class="nav-link" href="login.html"><i style="margin-left: 5px;" class=" bi bi-person-plus"></i>تسجيل الدخول</a>
+                               </li>
+                           </ul>
+                           <li class="nav-item dropdown ">
+                               <a class="nav-link" href="index.html">
+                                   الصفحه الرئيسية
+                               </a>
+                           </li>
+                           <li class="nav-item dropdown active ">
+                               <a class="nav-link" href="shop.html">
+                                   معرض المشاريع 
+                               </a>
+                           </li>
+                           <li class="nav-item dropdown submenu">
+                               <a class="nav-link" href="my-account.html">
+                                   الصفحه الشخصيه
+                               </a>
+                           </li>
+                           <li class="nav-item dropdown submenu">
+                               <a class="nav-link" href="about.html">
+                                   معلومات الموقع
+                               </a>
+                           </li>
+                       </ul>
+                   </div>
+                   <!-- logo -->
+                   <a class="navbar-brand sticky_logo" href="index.html">
+                       <img src="./img/home/MetLogo.png" style="height: 70px;" alt="logo" />
+                       <img src="./img/home/MetLogo.png" style="height: 70px;" alt="logo" />
+                   </a>
+               </div>
+           </nav>
+        </header>
+        <!-- shop area  -->
+        <section class="bj_shop_area sec_padding" data-bg-color="#f5f5f5">
+            <div class="container">
+                <div class="row mth ">
+                    <div class="col-lg-3">
+                        <div class="shop_sidebar">
+                            <div class="widget filter_widget">
+                                <h3 class="shop_sidebar_title"><a href="#"><img src="./img/shop/filter.svg" alt=""></a>فلتر</h3>
+                            </div>
+                            <div class="widget price_widget">
+                                <h4 class="shop_sidebar_title_small">سنة التخرج</h4>
+                                <div id="slider-range" data-price-min="230" data-price-max="1233"></div>
+                                <select class="create-post-input">
+                                    <option disabled="" value="">Select A Category</option>
+                                    <option value="engineering">2010</option>
+                                    <option value="nursing">2011</option>
+                                    <option value="adaptation">2012</option>
+                                    <option value="backend">2013</option>
+                                    <option value="frontend">2014</option>
+                                    <option value="frontend">2015</option>
+                                    <option value="frontend">2016</option>
+                                    <option value="frontend">2017</option>
+                                    <option value="frontend">2018</option>
+                                    <option value="frontend">2019</option>
+                                    <option value="frontend">2021</option>
+                                    <option value="frontend">2022</option>
+                                    <option value="frontend">2023</option>
+                                    <option value="frontend">2024</option>
+                                    <option value="frontend">2025</option>
+                                </select>
+                            </div>
+                            <div class="widget shop_category_widget">
+                                <h4 class="shop_sidebar_title_small"> الدكتره </h4>
+                                <ul class="list-unstyled shop_category_list">
+                                    <li><a href="#">جميع الدكتره</a></li>
+                                    <li><a href="#">د/لبني</a></li>
+                                    <li><a href="#">د/محمد</a></li>
+                                    <li><a href="#">د/كاظم</a></li>
+                                    <li><a href="#">د/عاصم</a></li>
+                                </ul>
+                                <div class="collapse" id="collapseExample">
+                                    <ul class="list-unstyled shop_category_list">
+                                        <li><a href="#"> د/محمود</a></li>
+                                        <li><a href="#">د/ابرهيم</a></li>
+                                        <li><a href="#">د/احمد</a></li>
+                                        <li><a href="#">د/نسرين</a></li>
+                                        <li><a href="#"> د/سعد</a></li>
+                                    </ul>
+                                </div>
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    مشاهدة المزيد <i class="ti-angle-down"></i>
+                                </a>
+                            </div>
+                            <div class="widget shop_category_widget">
+                                <h4 class="shop_sidebar_title_small"> المجال </h4>
+                                <ul class="list-unstyled shop_category_list">
+                                    <li><a href="#">جميع المجالات</a></li>
+                                    <li><a href="#">الصحه</a></li>
+                                    <li><a href="#">تحليل بيانات</a></li>
+                                    <li><a href="#">مصانع</a></li>
+                                    <li><a href="#">ذكاء صناعي</a></li>
+                                </ul>
+                            </div>
+                            <div class="widget author_widget">
+                                <h4 class="shop_sidebar_title_small">الشعبه</h4>
+                                <div class="author_choose_list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="burt" id="burt" value="burt">
+                                        <label class="form-check-label" for="burt">نظم المعلومات الاداريه</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="candy" id="candy" value="candy">
+                                        <label class="form-check-label" for="candy">علوم حاسب</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget author_widget">
+                                <h4 class="shop_sidebar_title_small">التقييم <i class="bi bi-star-fill"></i></h4>
+                                <div class="author_choose_list">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="rating_filter" id="5_star_filter" value="5 star">
+                                        <label class="form-check-label" for="5_star_filter">
+                                            <span class="rating">
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="rating_filter" id="4_star_filter" value="5 star">
+                                        <label class="form-check-label" for="4_star_filter">
+                                            <span class="rating">
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill "></i>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="rating_filter" id="3_star_filter" value="5 star">
+                                        <label class="form-check-label" for="3_star_filter">
+                                            <span class="rating">
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill "></i>
+                                                <i class="bi bi-star-fill "></i>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="rating_filter" id="2_star_filter" value="5 star">
+                                        <label class="form-check-label" for="2_star_filter">
+                                            <span class="rating">
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill "></i>
+                                                <i class="bi bi-star-fill "></i>
+                                                <i class="bi bi-star-fill "></i>
+                                            </span>
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="rating_filter" id="1_star_filter" value="1 star">
+                                        <label class="form-check-label" for="1_star_filter">
+                                            <span class="rating">
+                                                <i class="bi bi-star-fill filled"></i>
+                                                <i class="bi bi-star-fill "></i>
+                                                <i class="bi bi-star-fill "></i>
+                                                <i class="bi bi-star-fill "></i>
+                                                <i class="bi bi-star-fill "></i>
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <form role="search" method="get" class="pr_search_form input-group" action="#">
+                            <input type="text" name="s" value="" class="form-control search-field" id="search" placeholder="ابحث عن مشروعك..">
+                            <button type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                        <div class="shop_top d-flex align-items-center justify-content-between">
+                            <div class="shop_menu_left">500 مشروع</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book1.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>   
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="A Storytelling Workbook" data-img="./img/shop/author_book1.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book2.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span> 
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="The Ruthless" data-img="./img/shop/author_book2.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book3.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="The Psychology of.." data-img="./img/shop/author_book3.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book4.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="Your Next Five Moves" data-img="./img/shop/author_book4.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book1.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="A Storytelling Workbook" data-img="./img/shop/author_book1.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book2.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="The Ruthless" data-img="./img/shop/author_book2.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book3.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="The Psychology of.." data-img="./img/shop/author_book3.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book4.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="Your Next Five Moves" data-img="./img/shop/author_book4.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book1.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="A Storytelling Workbook" data-img="./img/shop/author_book1.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book2.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="The Ruthless" data-img="./img/shop/author_book2.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book3.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="The Psychology of.." data-img="./img/shop/author_book3.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 projects_item">
+                                <div class="best_product_item best_product_item_two shop_product">
+                                    <div class="img">
+                                        <a href="#"><img src="./img/shop/author_book4.jpg" alt="book"></a>
+                                        <div class="pr_ribbon">
+                                            <span class="product-badge">2021</span>
+                                            <div class="ratting">
+                                                <img src="./img/shop/star-1.png" alt="">4.9
+                                            </div>
+                                        </div>
+                                        <div class="hover_item">
+                                            <a class="quick_button" href="my-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="right" title="اضف الي المفاضله"><i class="bi bi-heart"></i></a>
+                                            <span data-bs-toggle="tooltip" data-bs-placement="right" title="اختصار المشروع"><button class="quick_button" data-bs-toggle="modal" data-bs-target="#productQuickView"><i class="bi bi-arrows-fullscreen"></i></button></span>
+                                            
+                                        </div>
+                                        <button type="button" class="bj_theme_btn add-to-cart-automated" data-name="Your Next Five Moves" data-img="./img/shop/author_book4.jpg" data-price="25" data-mrp="120">
+                                            مشاهدة المزيد
+                                        </button>
+                                    </div>
+                                    <div class="bj_new_pr_content">
+                                        <a href="product-single.html">
+                                            <h4 class="bj_new_pr_title">عنوان المشروع</h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="text-center">
+                            <nav aria-label="...">
+                                <ul class="pagination pagi-content">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#"><i class="ti-angle-left"></i>Prev</a>
+                                    </li>
+                                    <li class="page-item active" aria-current="page"><span class="page-link">1</span>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next<i class="ti-angle-right"></i></a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>      
+        <!-- footer area css  -->
+        <footer class="bj_footer_area padding_top" data-bg-color="#001F58">
+            <img class="footer_bg_img" src="./img/home/footer_img.jpg" alt="" />
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 footer-padding">
+                            <div class="f_widget link_widget">
+                                <img class="f_widget_title" src="./img/home/MetLogo.png">
+                                <p>
+                                    مكتبة مشاريع التخرج معهد مصر العالي للحاسبات والمعلومات بالمنصوره
+                                </p>
+                                <ul class="list-unstyled list">
+                                    <li><a href="tel:610383766284">+61 (0) 38376 6284 <i class="bi bi-telephone-fill"></i></a></li>
+                                    <li><a href="mailto:noreply@bookjar.com">noreply@bookjar.com <i class="bi bi-envelope-at-fill"></i></a></li>
+                                </ul>
+                                <ul class="list-unstyled f_social_round">
+                                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-google"></i></a></li>
+                                    <li><a href="#"><i class="bi bi-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 footer-padding">
+                            <div class="f_widget link_widget wow fadeInUp" data-wow-delay="0.2s">
+                                <h2 class="f_widget_title">روابط تهمك</h2>
+                                <ul class="list-unstyled list">
+                                    <li><a href="about.html">معلومات عنا</a></li>
+                                    <li><a href="contact.html">اتصل بنا</a></li>
+                                    <li><a href="blog-grid.html">المدونه</a></li>
+                                    <li><a href="author.html">الدكتره</a></li>
+                                    <li><a href="book-listing.html">المشاريع</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 footer-padding">
+                            <div class="f_widget link_widget ps-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                                <h2 class="f_widget_title">خدماتنا</h2>
+                                <ul class="list-unstyled list">
+                                    <li><a href="login.html">تسجيل الدخول</a></li>
+                                    <li><a href="404.html">(404) الصفحه الخطاء</a></li>
+                                    <li><a href="my-ebook-library.html">مكتبة مشريع التخرج</a></li>
+                                    <li><a href="shop.html">المشاريع</a></li>
+                                    <li><a href="my-orders.html">رفع المشروع</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom text-center wow fadeInUp" data-wow-delay="0.6s">
+                <p>مكتبة معهد مصر العالي لتجاره والحاسبات بالمنصوره</p>
+            </div>
+        </footer>
+        <!-- footer area css  -->
+
+        <!-- Back to top button -->
+        <a id="back-to-top" title="Back to Top"></a>
+        <!-- Optional JavaScript; choose one of the two! -->
+        <script src="./JS/jquery-3.6.0.min.js"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <script src="./JS/preloader.js"></script>
+        <script src="./JS/ventors/popper.min.js"></script>
+        <script src="./JS/ventors/bootstrap.min.js"></script>
+        <script src="./JS/ventors/parallax.js"></script>
+        <script src="./JS/ventors/slick.min.js"></script>
+        <script src="./JS/comming-soon.js"></script>
+        <script src="./JS/jquery.counterup.min.js"></script>
+        <script src="./JS/jquery.waypoints.min.js"></script>
+        <script src="./JS/ventors/swiper-bundle.min.js"></script>
+        <script src="./JS/custom.js"></script>
+        <script>
+             //sticky header
+            function navbarFixed() {
+                if ($("#header").length) {
+                  $(window).scroll(function () {
+                    var scroll = $(window).scrollTop();
+                    if (scroll) {
+                      $("#header").addClass("fixed-header");
+                    } else {
+                      $("#header").removeClass("fixed-header");
+                    }
+                  });
+                }
+              }
+              navbarFixed();
+        </script>
+    
+    </body>
+</html>
